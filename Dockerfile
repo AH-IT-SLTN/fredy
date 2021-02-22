@@ -20,4 +20,5 @@ EXPOSE 9998
 
 VOLUME [ "/conf", "/db" ]
 # --no-daemon is required for keeping Container alive
-CMD node webpack.prod.js --no-daemon
+CMD node index.js --no-daemon
+cmd npm run prod
